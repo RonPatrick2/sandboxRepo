@@ -21,7 +21,7 @@ class BrandSource_Blog_Model_Mysql4_Blog_Collection extends AW_Blog_Model_Mysql4
     public function addStoreFilter($store = null)
     {
         if ($store === null) {
-            $store = Mage::app()->getStore()->getId();;;;
+            $store = Mage::app()->getStore()->getId();;;;///more testing
         }
         // if (!Mage::app()->isSingleStoreMode()) {
         if ($store instanceof Mage_Core_Model_Store) {
